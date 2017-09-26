@@ -325,10 +325,13 @@ body {
 .see p a:hover{
 	color: #E4292F;
 }
+.product-image{
+	height: 222px;
+}
 /**** Grid 1_0f_4 ****/
 .grid_1_of_4 {
  height: 280px;
-    width: 155px;
+    width: 179px;
 	display: block;
 	float: left;
 	margin: 1% 0 1% 1.6%;
@@ -594,7 +597,7 @@ body {
 	margin:30px 0;
 }
 .span_1_of_2 {
-	width: 67.1%;
+	width: 73.1%;
 	padding: 1.5%;
 }
 .images_3_of_2 {
@@ -610,7 +613,7 @@ body {
 	width: 53.2%;
 }
 .span_3_of_1 {
-	width: 25.2%;
+	width: 19.2%;
 	padding: 1.5%;
 }
 .images_3_of_2  img {

@@ -190,23 +190,16 @@ while($result = mysql_fetch_assoc($fetch))
 {
 	//echo $result['name'];
 ?>
-
-
-
-
-						<div class="grid_1_of_4 images_1_ofof_4" >
-					 <a href="deal_preview.php?deal_id=<?php echo $result['deal_id'] ?>">
-					 <img src="<?php echo $result['deal_image_url']; ?>" alt="" style="width:110px;height:200px; " /></a>					
-					 <h2><?php echo $result['deal_name'];  ?> </h2>
+				<div class="grid_1_of_4 images_1_ofof_4" >
+					<a href="deal_preview.php?deal_id=<?php echo $result['deal_id'] ?>">
+					<img src="<?php echo $result['deal_image_url']; ?>" alt="" class="product-image" /></a>					
+					<h2><?php echo $result['deal_name'];  ?> </h2>
 					<div class="price-details">
 				       <div class="price-number">
 							<p><span class="rupees"><?php echo $result['deal_price'] ?></span></p>
 					    </div>
-					       	
 					</div>
 				</div>		
-			
-
 <?php
 }
 ?>			

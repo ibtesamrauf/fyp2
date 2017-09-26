@@ -276,21 +276,16 @@ $fetch = mysql_query($query) or die(mysql_error());
 
 while($result = mysql_fetch_assoc($fetch))
 {
-	
 ?>
 
-
-
-
-						<div class="grid_1_of_4 images_1_ofof_4" >
-					 <a href="preview.php?id=<?php echo $result['dish_id'] ?>">
-					 <img src="<?php echo $result['dish_image_url']; ?>" alt="" style="width:110px;height:200px; " /></a>					
-					 <h2><?php echo $result['dish_name'];  ?> </h2>
+				<div class="grid_1_of_4 images_1_ofof_4" >
+					<a href="preview.php?id=<?php echo $result['dish_id'] ?>">
+					<img src="<?php echo $result['dish_image_url']; ?>" alt="" class="product-image"  /></a>					
+					<h2><?php echo $result['dish_name'];?></h2>
 					<div class="price-details">
 				       <div class="price-number">
 							<p><span class="rupees"><?php echo $result['dish_price'] ?></span></p>
-					    </div>
-					       	
+					    </div>       	
 					</div>
 				</div>		
 			
