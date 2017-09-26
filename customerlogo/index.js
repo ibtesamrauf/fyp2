@@ -1,0 +1,1 @@
+function allDone(){TweenMax.set(path,{transformOrigin:"right top"}).staggerTo(path,1.5,{x:10,scale:0,opacity:0,ease:Power2.easeOut},.05,0)}var path="#tvlk path",tl=new TimelineMax({repeat:-1,repeatDelay:.3,yoyo:!0});tl.set(path,{scale:0,opacity:0,transformOrigin:"left bottom"}),tl.staggerTo(path,1.5,{scale:1,opacity:1,ease:Elastic.easeInOut},.05,0,allDone);
